@@ -1,8 +1,22 @@
-header {
-    background-color: rgba(0, 0, 255, 0.3);
-
+html {
+    background: url('./bg.jpg');
+    background-position: 50% 22%;
+    background-size: cover;
 }
-main {
+
+body {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+}
+
+header, main {
     width: 80vw;
     margin: 0 auto;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 2em;
 }
